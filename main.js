@@ -3,7 +3,6 @@
 const selectElement = (s) => document.querySelector(s);
 const navLinks = document.querySelectorAll(".nav-link");
 
-
 selectElement(".burger-menu-icon").addEventListener("click", () => {
     selectElement(".nav-list").classList.toggle("active");
     selectElement(".burger-menu-icon").classList.toggle("toggle")
@@ -17,7 +16,6 @@ selectElement(".burger-menu-icon").addEventListener("click", () => {
         }
     })
 });
-
 
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
